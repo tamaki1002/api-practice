@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML フォム</title>
+    <fieldset>
+        <legend>個人情報</legend>
+    
+   
+    <body>
+       <form> 
+
+        名前　:<input type="text"> <br>
+        住所　:<input type="text"> <br>
+        e-mail :<input type="text"> <br>
+        電話番号　:<input type="text"> <br>
+        性別　<br>
+        <input type="radio"> 男　<br>
+        <input type="radio"> 女　<br>
+        <input type="radio"> 他　<br>
+        DOB <input type="date"><br>
+       </fieldset>
+        <fieldset>
+    
+           <input type="checkbox">HTML<br>
+           <input type="checkbox">CSS<br>
+           <input type="checkbox">javascript<br>
+           <input type="checkbox">iquery<br>
+           <input type="checkbox">PHP<br>
+        
+        </fieldset>
+
+       <fieldset>学生
+        <select>
+               <option 1年生></option>
+               <option 2年生></option>
+               <option 3年生></option>
+               <option 4年生></option>
+           </select>
+       </fieldset>
+       <fieldset>
+           <legend>自由</legend>　
+           この大学に入学した理由を50字で書いてください。
+           <br>
+           <textarea cols="40" rows="8" ></textarea>
+           二つの連絡先をください。
+           <br>
+           <textarea cols="40" rows="8"></textarea>
+           ファイルをアップロードしてください。
+           <br>
+       </fieldset>
